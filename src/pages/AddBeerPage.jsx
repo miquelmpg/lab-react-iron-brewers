@@ -19,7 +19,7 @@ function AddBeerPage() {
   const handleImageUrl = (e) => setImageUrl(e.target.value);
   const handleFirstBrewed = (e) => setFirstBrewed(e.target.value);
   const handleBrewersTips = (e) => setBrewersTips(e.target.value);
-  const handleAttenuationLevel = (e) => setAttenuationLevel(e.target.value);
+  const handleAttenuationLevel = (e) => setAttenuationLevel(Number(e.target.value));
   const handleContributedBy = (e) => setContributedBy(e.target.value);
 
   // TASK:
